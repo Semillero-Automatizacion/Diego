@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Validacion de formulario" skipped="0" tests="1" time="22.96" timestamp="2019-11-15T15:00:26.577-05:00[America/Bogota]"><testcase name="Se Ingresa a la aplicacion y se inicia sesion"><error message="The following error occurred: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=78.0.3904.97)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\1813478\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57852}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}&#10;Session ID: 52dc42bce0054d85247514a0dbb24e16&#10;*** Element info: {Using=xpath, value=//div[@id=&quot;login&quot;]/form/input[@class=&quot;form-control bottom&quot;]}&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\1813478\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57852}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: 52dc42bce0054d85247514a0dbb24e16
+*** Element info: {Using=xpath, value=//div[@id="login"]/form/input[@class="form-control bottom"]}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\1813478\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57852}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: 52dc42bce0054d85247514a0dbb24e16
+*** Element info: {Using=xpath, value=//div[@id="login"]/form/input[@class="form-control bottom"]}
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: '50HW013494', ip: '10.104.154.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown&#13;
+tcs.semillero.diego.ejemploArquitecturaMaven.PageObjects.LoginPageObjects.ingreso_clave(LoginPageObjects.java:20)&#13;
+tcs.semillero.diego.ejemploArquitecturaMaven.PageObjects.ValidacionFormularioPageObjects.iniciarSesion(ValidacionFormularioPageObjects.java:31)&#13;
+tcs.semillero.diego.ejemploArquitecturaMaven.step.ValidacionFormularioSteps.iniciar_sesion(ValidacionFormularioSteps.java:14)&#13;
+tcs.semillero.diego.ejemploArquitecturaMaven.definitions.ValidacionFormularioDefinitions.iniciar_sesion(ValidacionFormularioDefinitions.java:16)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>

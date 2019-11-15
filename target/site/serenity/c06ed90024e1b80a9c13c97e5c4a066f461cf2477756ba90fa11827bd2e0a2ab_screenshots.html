@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Prueba práctica</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="58259a522c6b7196a611dc7504744e85d35cde57d9102ca3c61e8792bf8cc53a.html">Validacion De Formulario</a></span>
+                > <span class="truncate-60"><a
+                    href="c06ed90024e1b80a9c13c97e5c4a066f461cf2477756ba90fa11827bd2e0a2ab.html">Se Ingresa a la aplicacion y se inicia sesion </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-11-2019 14:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validacion De Formulario </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="57d1b69a7dc50823c8091e16642089ef4789d62ed24634065ab9b7a27653fe5b.html">Tag2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Se Ingresa a la aplicacion y se inicia sesion
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Ingresar al sitio web<br>And Iniciar sesion &lt;usuario&gt; &lt;contrasena&gt;<br>When diligenciar &lt;requerido&gt; &lt;selectorDeporte&gt; &lt;selectorMultiple&gt; &lt;url&gt; &lt;correo&gt; &lt;clave&gt; &lt;confirmaClave&gt; &lt;minimoCampo&gt; &lt;maximoCampo&gt; &lt;numero&gt; &lt;direccionIP&gt; &lt;fecha&gt; &lt;cita&gt;<br>And enviar formulario<br>Then verficar campos llenos</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8f8d0ec62a03720d5d6e16fa246279cf200adc99379ed92ded71863bc59ca6dc.png" title="Se Ingresa a la aplicacion y se inicia sesion #1: {usuario=&quot;demo&quot;, contrasena=&quot;demo&quot;, requerido=&quot;requerido&quot;, selectorDeporte=&quot;Football&quot;, selectorMultiple=&quot;Football&quot;, url=&quot;http://google.com&quot;, correo=&quot;correo@correo.com&quot;, clave=&quot;1234&quot;, confirmaClave=&quot;1234&quot;, minimoCampo=&quot;Manjula&quot;, maximoCampo=&quot;Tyler&quot;, numero=&quot;19.41&quot;, direccionIP=&quot;192.168.0.1&quot;, fecha=&quot;1990-12-19&quot;, cita=&quot;2001/09/11&quot;}" width="960"/>
+                <img src="9cc9883f3bc2b58fd123959f8126b1ac5c10d3ee4db1a5338aaeb1285d3056d4.png" title="Given Ingresar al sitio web" width="960"/>
+                <img src="9cc9883f3bc2b58fd123959f8126b1ac5c10d3ee4db1a5338aaeb1285d3056d4.png" title="Ingresar al sitio web" width="960"/>
+                <img src="9cc9883f3bc2b58fd123959f8126b1ac5c10d3ee4db1a5338aaeb1285d3056d4.png" title="And Iniciar sesion &quot;demo&quot; &quot;demo&quot;" width="960"/>
+                <img src="d33493aaa7a0c17006785777ab10c1002c925d4508ed9b414becb171a8bce83f.png" title="And Iniciar sesion &quot;demo&quot; &quot;demo&quot;" width="960"/>
+                <img src="9cc9883f3bc2b58fd123959f8126b1ac5c10d3ee4db1a5338aaeb1285d3056d4.png" title="Iniciar sesion: demo, demo" width="960"/>
+                <img src="d33493aaa7a0c17006785777ab10c1002c925d4508ed9b414becb171a8bce83f.png" title="Iniciar sesion: demo, demo" width="960"/>
+                <img src="d33493aaa7a0c17006785777ab10c1002c925d4508ed9b414becb171a8bce83f.png" title="When diligenciar &quot;requerido&quot; &quot;Football&quot; &quot;Football&quot; &quot;http://google.com&quot; &quot;correo@correo.com&quot; &quot;1234&quot; &quot;1234&quot; &quot;Manjula&quot; &quot;Tyler&quot; &quot;19.41&quot; &quot;192.168.0.1&quot; &quot;1990-12-19&quot; &quot;2001/09/11&quot;" width="960"/>
+                <img src="5f4dc0d9eda2f8983c034a93c61da085928f0cd966670db63d770be0d1aff9bb.png" title="When diligenciar &quot;requerido&quot; &quot;Football&quot; &quot;Football&quot; &quot;http://google.com&quot; &quot;correo@correo.com&quot; &quot;1234&quot; &quot;1234&quot; &quot;Manjula&quot; &quot;Tyler&quot; &quot;19.41&quot; &quot;192.168.0.1&quot; &quot;1990-12-19&quot; &quot;2001/09/11&quot;" width="960"/>
+                <img src="b388812cd49a30011ab0be72e216355e47acc3b090c23f850b099b7cabf68306.png" title="Diligenciar: requerido, Football, Football, http://google.com, correo@correo.com, 1234, 1234, Manjula, Tyler, 19.41, 192.168.0.1, 1990-12-19, 2001/09/11" width="960"/>
+                <img src="5f4dc0d9eda2f8983c034a93c61da085928f0cd966670db63d770be0d1aff9bb.png" title="Diligenciar: requerido, Football, Football, http://google.com, correo@correo.com, 1234, 1234, Manjula, Tyler, 19.41, 192.168.0.1, 1990-12-19, 2001/09/11" width="960"/>
+                <img src="3c03dcd081c1c159db4b5e63a799c0331786d1138e977c202be76add51d9374d.png" title="And enviar formulario" width="960"/>
+                <img src="8f8d0ec62a03720d5d6e16fa246279cf200adc99379ed92ded71863bc59ca6dc.png" title="And enviar formulario" width="960"/>
+                <img src="3c03dcd081c1c159db4b5e63a799c0331786d1138e977c202be76add51d9374d.png" title="Enviar formulario" width="960"/>
+                <img src="ee76094c5a85f63f8fac5e61ace4dbf191d16322345859b416f7dea43455e1bc.png" title="Enviar formulario" width="960"/>
+                <img src="8f8d0ec62a03720d5d6e16fa246279cf200adc99379ed92ded71863bc59ca6dc.png" title="Then verficar campos llenos" width="960"/>
+                <img src="ee76094c5a85f63f8fac5e61ace4dbf191d16322345859b416f7dea43455e1bc.png" title="Then verficar campos llenos" width="960"/>
+                <img src="8f8d0ec62a03720d5d6e16fa246279cf200adc99379ed92ded71863bc59ca6dc.png" title="Verificar campos llenos" width="960"/>
+                <img src="ee76094c5a85f63f8fac5e61ace4dbf191d16322345859b416f7dea43455e1bc.png" title="Verificar campos llenos: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
